@@ -1,0 +1,240 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Architects Daughter', cursive;
+    MARGIN:0;
+
+}
+nav{
+    background-color:#fff;
+    box-shadow:2px  wheat;
+    position:sticky;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width:98%;
+    height:50px;
+    top:20px;
+    border-radius:30px;
+}
+ul{
+    display:flex;
+  align-items: center;
+margin-left: 650px;
+justify-content: space-between;
+}
+li
+{
+padding:15px;
+align-items: center;
+
+}
+#a_h{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: #343a40;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#title{
+   
+    
+    margin-top:5px;
+    
+
+}
+#banner{
+    width:100%;
+    background-color:rgb(10, 10, 10);
+    height: 120px;
+}
+video{
+    object-fit:cover;
+    width:100%;
+    height:500px;
+    align-self: auto;
+}
+#intro{
+
+    top:470px;
+    left:60%;
+    width:400px;
+    height:48px;
+    font-size: larger;
+    color:#ebe7e7;
+    font-size:20px;
+    font-family: 'Architects Daughter', cursive;
+}
+#overlay{
+
+    position: absolute;
+    top:50%;
+    left:60%;
+}
+#overlay2{
+
+    position: absolute;
+    top:21%;
+    left:82%;
+}
+#overlay3{
+
+    position: absolute;
+    top:20%;
+    left:82%;
+}
+#outline
+{
+    width:207px;
+    height:208px;
+    background-color:white;
+}
+img:hover{
+    box-shadow: 2px 3px 4px #232324;
+}
+img{
+    
+}
+#overlay4{
+
+    position: absolute;
+    top:65%;
+    left:62%;
+    color:white;
+}
+p{
+    text-align: justify;
+    margin-bottom: 13px;
+    padding: 5px;
+}
+.bd
+{
+    text-decoration: none;
+    background-color:white ;
+    color:#343a40;
+    height: 100px;
+    width:200px;
+    padding: 10px;
+    border-radius:15px;
+  
+}
+#row
+{
+    display: flex;
+    justify-content: space-around;
+  
+    
+    width:100%;
+    height:500px;
+    align-items: center;
+    
+    
+    
+}
+#col{
+    padding:10px;
+    width:330px;
+    height:440px;
+    background-color: #fff;
+    box-shadow: 3px 4px 5px  gainsboro;
+    justify-content: center;
+    background:linear-gradient(to top,rgb(209, 209, 238)50%,rgb(188, 235, 188)50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+  
+}
+#col:hover
+{
+    background-position:left bottom;
+    border:none;
+}
+h1{
+    text-align: center;
+    font-size:xx-large;
+}
+#col h2{
+    text-align: center;
+}
+#col1 h2{
+    text-align: center;
+}
+#row1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    width:100%;
+    height:650px;
+    align-items: center;
+    background-image:url();
+}
+#row1:hover
+{
+    background-image:url(https://i.ytimg.com/vi/Hz6aQ7bRL8s/maxresdefault.jpg);
+}
+#row:hover
+{
+}
+
+#col1{
+    padding:10px;
+    width:290px;
+    height:600px;
+    background-color: #fff;
+    box-shadow: 3px 4px 5px  gainsboro;
+}
+
+h3{
+    color:rgb(245, 66, 66);
+    text-decoration: underline;
+    
+}
+#col:hover{
+    box-shadow:2px 2px 2px #343a40;
+}
+#fdiv{
+    width:90%;
+    height:200px;
+    box-shadow: 6px 6px 9px gainsboro;
+    margin-left: 15px;
+    padding: 10px;
+    background-color:white;
+    align-items: center;
+    
+}
+#fdiv:hover{
+
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: 0ch;
+    background-image:url(https://wallpapers.com/images/hd/elon-musk-abstract-portrait-2t0y5j7f55oyktuq.jpg);
+}
+
+#c{
+    color:red;
+   font-weight: bolder;
+   font-size: 45px;
+}
+#a_h{
+    text-decoration: none;
+    font-size:large;
+    font-weight: bold;
+    color: #343a40;
+    font-family: 'Open Sans', sans-serif;
+
+}
+body{
+   
+    background-color: rgba(13, 14, 13, 0.3)
+    
+}
+#col img:hover{
+    box-shadow: 2px 3px 4px #232324;
+    
+}
+#col:hover{
+    background-color: #bebfc0be;
+    
+}
